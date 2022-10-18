@@ -17,6 +17,7 @@ function restoreTheme() {
 
 function clearTheme() {
   // Your code here
+  localStorage.removeItem('theme');
 }
 
 /* ================================ PHASE 2 ================================ */
